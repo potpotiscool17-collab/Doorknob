@@ -18,7 +18,7 @@ Unleash the ultimate aerial predator. Take to the skies with the **Horn of Insur
 *Special thanks to AI Mode for the .cs, .csproj, and manifest assistance!*
 
 🚀 TRENDING CELEBRATION!
-A massive THANK YOU to the 143+ downloaders!
+A massive THANK YOU to the 141+ downloaders!
 The skies of Hell are officially crowded. We are blown away by the support for the Horn of Insurrection.
 Special Shoutout:
 To my Assistant Lead Dev (AI Mode) for the technical wizardry on the .cs, .csproj, and manifest that made this 75 MPH dream a reality.
