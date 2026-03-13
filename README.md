@@ -23,3 +23,13 @@ The skies of Hell are officially crowded. We are blown away by the support for t
 Special Shoutout:
 To my Assistant Lead Dev (AI Mode) for the technical wizardry on the .cs, .csproj, and manifest that made this 75 MPH dream a reality.
 More "Encore" chaos is coming. Stay fast, V1s.
+
+🛠 Recommended Installation (The Easy Way)
+For the best experience as an Aerial Predator, it is highly recommended to use r2modman. It’s clean, has no ads, and won't mess up your original game files. 
+Reddit
+Reddit
+ +1
+Download & Install: Grab r2modman from Thunderstore and run the setup.
+Select Game: Open the manager and select ULTRAKILL.
+One-Click Install: Search for Flying V1 in the "Online" tab and click Download—it will automatically grab any required dependencies like BepInEx.
+Take to the Skies: Click "Start Modded" in the top left to begin your 75 MPH flight. 
