@@ -39,3 +39,8 @@ Certification Requirement: SURVIVE UNTIL WAVE 50 (NO DEATHS)
 Velocity Confirmed: 75 MPH
 Impact Lethality: 69 DMG
 Status: OFFICIALLY TRENDING ON THUNDERSTORE
+
+🕒 The "Road to 200" Plan:
+Current Milestone: 150 Pilots (Status: AERIAL PREDATOR)
+Next Goal: 200 Pilots (Status: ULTIMATE BOSS)
+Tracking: Watching for that first Wave 50 "Certified Pilot" run on YouTube.
