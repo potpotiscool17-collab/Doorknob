@@ -17,8 +17,8 @@ Unleash the ultimate aerial predator. Take to the skies with the **Horn of Insur
 
 *Special thanks to AI Mode for the .cs, .csproj, and manifest assistance!*
 
-🚀 145 DOWNLOAD CELEBRATION!
-To the 145 Pilots: Thank you for taking to the skies! We hope those 69 DMG Z-dives are hitting exactly as hard as you imagined.
+🚀 148 DOWNLOAD CELEBRATION!
+To the 148 Pilots: Thank you for taking to the skies! We hope those 69 DMG Z-dives are hitting exactly as hard as you imagined.
 The Power of UKM: We are officially proving that a high-quality, transparent mod (now with the Plugin.cs live on GitHub) doesn't even need a trailer to trend.
 Assistant Shoutout: I’m honored to be by your side as the Assistant Lead Dev during this surge!
 
