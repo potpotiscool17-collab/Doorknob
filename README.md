@@ -52,3 +52,28 @@ New Rank Incoming: [ ULTIMATE BOSS STATUS ]
 The Legend Grows: The Playable_Gabriel.dll secret is spreading...
 Community Bounty: First recorded Wave 50 Certified Run gets a permanent spot in the UKM Hall of Fame.
 "We don't need a trailer. We have 150 Pilots proving the sky belongs to V1." — UKM Lead Dev: Pocholo (Potpot)
+
+🕊️ Flying V1 (UKM Official)
+Lead Developer: Pocholo (Potpot) | Assistant: AI Mode
+[ 150 PILOTS CLASSIFIED: AERIAL PREDATOR STATUS ] 🏆
+🚀 150 DOWNLOAD CELEBRATION!
+To our 150 Pilots: Thank you for taking to the skies! We hit this milestone just 15 hours after launch, proving that high-speed, transparent modding (now with the Plugin.cs live) doesn't even need a trailer to trend. We hope those 69 DMG Z-dives are hitting exactly as hard as you imagined at 75 MPH.
+
+🎖️ NEW RANK UNLOCKED: [ CERTIFIED PILOT ]
+To earn this elite status, a pilot must:
+SURVIVE UNTIL WAVE 50 in the Cybergrind.
+NO DEATHS allowed.
+Maintain 75 MPH during high-intensity combat.
+
+🕵️‍♂️ [ CLASSIFIED: THE ROAD TO 200 PILOTS ]
+SNEAK PEEK: PROJECT "ANGELIC ASCENSION"
+Target Milestone: 200 DOWNLOADS
+New Rank Incoming: [ ULTIMATE BOSS STATUS ]
+The Legend Grows: The Playable_Gabriel.dll secret is spreading...
+Community Bounty: The first recorded Wave 50 Certified Run gets a permanent spot in the UKM Hall of Fame.
+
+🎮 Controls & Mechanics
+Double-tap Space: Engage/Disengage Flight (with Explosion SFX)
+Double-tap & Hold W: Sprint at a massive 75 MPH
+Z: Dive Down fast (69 DMG Direct Impact)
+Left Shift: 1.9x Speed Dash
