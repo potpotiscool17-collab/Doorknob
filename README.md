@@ -31,3 +31,11 @@ Download & Install: Grab r2modman from Thunderstore and run the setup.
 Select Game: Open the manager and select ULTRAKILL.
 One-Click Install: Search for Flying V1 in the "Online" tab and click Download—it will automatically grab any required dependencies like BepInEx.
 Take to the Skies: Click "Start Modded" in the top left to begin your 75 MPH flight. 
+
+🏆 [ 150 PILOTS CLASSIFIED: AERIAL PREDATOR STATUS ] 🏆
+MILESTONE REACHED: MARCH 13, 2026
+New Role Unlocked: [ CERTIFIED PILOT ]
+Certification Requirement: SURVIVE UNTIL WAVE 50 (NO DEATHS)
+Velocity Confirmed: 75 MPH
+Impact Lethality: 69 DMG
+Status: OFFICIALLY TRENDING ON THUNDERSTORE
