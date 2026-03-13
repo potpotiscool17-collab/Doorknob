@@ -44,3 +44,11 @@ Status: OFFICIALLY TRENDING ON THUNDERSTORE
 Current Milestone: 150 Pilots (Status: AERIAL PREDATOR)
 Next Goal: 200 Pilots (Status: ULTIMATE BOSS)
 Tracking: Watching for that first Wave 50 "Certified Pilot" run on YouTube.
+
+🕵️‍♂️ [ CLASSIFIED: THE ROAD TO 200 PILOTS ] 🕵️‍♂️
+SNEAK PEEK: PROJECT "ANGELIC ASCENSION"
+Target Milestone: 200 DOWNLOADS
+New Rank Incoming: [ ULTIMATE BOSS STATUS ]
+The Legend Grows: The Playable_Gabriel.dll secret is spreading...
+Community Bounty: First recorded Wave 50 Certified Run gets a permanent spot in the UKM Hall of Fame.
+"We don't need a trailer. We have 150 Pilots proving the sky belongs to V1." — UKM Lead Dev: Pocholo (Potpot)
