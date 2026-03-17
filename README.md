@@ -77,3 +77,249 @@ Double-tap Space: Engage/Disengage Flight (with Explosion SFX)
 Double-tap & Hold W: Sprint at a massive 75 MPH
 Z: Dive Down fast (69 DMG Direct Impact)
 Left Shift: 1.9x Speed Dash
+
+🧩 FULL BEGINNER GUIDE: Creating a DLL Mod for ULTRAKILL
+🧰 PART 1 — What You Need
+
+Before anything, install these:
+
+✅ 1. .NET SDK
+
+Download .NET SDK (recommended: 6.0 or 7.0)
+
+You can use newer like 9.0+, but many mods use older standards
+
+👉 Why?
+This lets you build .dll files.
+
+✅ 2. Code Editor
+
+Install Visual Studio Code
+
+✅ 3. BepInEx (Mod Loader)
+
+Download BepInEx
+
+Extract it into your ULTRAKILL game folder
+
+Run the game once → it will generate folders
+
+📁 PART 2 — Create Your Mod Folder
+
+Create a folder anywhere:
+
+MyFirstMod/
+
+Inside it:
+
+MyFirstMod/
+├── MyFirstMod.cs
+├── MyFirstMod.csproj
+└── lib/
+⚠️ PART 3 — IMPORTANT: The lib Folder (DON’T SKIP THIS)
+
+This is the #1 thing beginners mess up.
+
+Go to your ULTRAKILL folder and copy:
+
+BepInEx.dll
+
+UnityEngine.dll
+
+Assembly-CSharp.dll
+
+Then paste them into:
+
+MyFirstMod/lib/
+💡 RULE:
+
+If it's in .csproj, it MUST exist in lib/
+
+🧠 PART 4 — Create the .cs File (Your Mod Code)
+
+Create:
+
+MyFirstMod.cs
+
+Paste this:
+
+using BepInEx;
+using HarmonyLib;
+using UnityEngine;
+
+[BepInPlugin("com.yourname.myfirstmod", "My First Mod", "1.0.0")]
+public class MyPlugin : BaseUnityPlugin
+{
+    void Awake()
+    {
+        var harmony = new Harmony("com.yourname.myfirstmod");
+        harmony.PatchAll();
+
+        Logger.LogInfo("My First Mod Loaded!");
+    }
+}
+🧩 What this does:
+
+Registers your mod
+
+Runs when the game starts
+
+Prints a message in console/log
+
+⚙️ PART 5 — Create the .csproj File
+
+Create:
+
+MyFirstMod.csproj
+
+Paste this:
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>lib\BepInEx.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine">
+      <HintPath>lib\UnityEngine.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Assembly-CSharp">
+      <HintPath>lib\Assembly-CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
+📦 PART 6 — Build the DLL
+
+Open terminal inside your mod folder:
+
+dotnet build
+📁 Output:
+bin/Debug/netstandard2.1/MyFirstMod.dll
+🎮 PART 7 — Install Your Mod
+
+Copy your DLL into:
+
+ULTRAKILL/
+└── BepInEx/
+    └── plugins/
+        └── MyFirstMod.dll
+▶️ PART 8 — Run the Game
+
+Launch ULTRAKILL.
+
+If everything works:
+
+No errors ✅
+
+Mod loads ✅
+
+Log shows:
+
+My First Mod Loaded!
+🚀 PART 9 — Add REAL FEATURES (Your Style)
+
+Now you can expand like your example:
+
+✅ Add Harmony patches
+✅ Add movement scripts
+✅ Add abilities (flight, slam, etc.)
+
+Example concept:
+
+[HarmonyPatch(typeof(NewMovement), "Start")]
+public class PlayerPatch
+{
+    static void Postfix(NewMovement __instance)
+    {
+        Debug.Log("Player patched!");
+    }
+}
+🔥 PART 10 — Your Advanced Idea (Flight System)
+
+This is where your code shines 💯
+
+You already built:
+
+Flight toggle ✈️
+
+Sprint speed ⚡
+
+Slam attack 💥
+
+Shockwave damage 🌊
+
+👉 Teach beginners:
+
+“Start simple… then build systems like this.”
+
+❌ COMMON ERRORS (VERY IMPORTANT)
+❌ Build fails
+
+✔ Fix:
+
+Missing DLL in lib
+
+Wrong file name
+
+❌ Mod doesn’t load
+
+✔ Fix:
+
+Wrong plugin folder
+
+BepInEx not installed
+
+❌ Game crashes
+
+✔ Fix:
+
+Wrong Unity DLL version
+
+Broken reference
+
+🧠 PRO TIPS (FROM YOU 🔥)
+
+You can teach this part exactly like this:
+
+💡 “Even if your DLL breaks, don’t quit.”
+
+Fix dependencies
+
+Check .csproj
+
+Rebuild again
+
+🏁 FINAL SUMMARY
+🧩 Steps:
+
+Install .NET + VS Code
+
+Setup BepInEx
+
+Create mod folder
+
+Add lib dependencies
+
+Write .cs
+
+Write .csproj
+
+Build DLL
+
+Put in plugins
+
+Run game
+
+💬 Optional Ending You Can Use (for your guide)
+
+“Don’t just copy mods.
+Learn how they work.
+Fix errors. Build your own systems.
+That’s how you become a real modder.”
